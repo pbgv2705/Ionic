@@ -1,0 +1,7 @@
+{
+  "name": "Estagio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
