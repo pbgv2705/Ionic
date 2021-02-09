@@ -1,12 +1,57 @@
 <ion-header>
+  
   <ion-toolbar>
     <ion-title>carreira-unica</ion-title>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-div class="topnav">
+        <ion-tab-button tab="tab1">
+         
+          <ion-label >Inicio</ion-label>
+        </ion-tab-button>
+    </ion-div>
+        <ion-tab-button tab="tab2">
+         
+          <ion-label>Novedades</ion-label>
+        </ion-tab-button>
+    
+        <ion-tab-button tab="tab3">
+
+          <ion-label>Contacto</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    
+    </ion-tabs>
+
+<!-- Este foi o primeiro intento: botões com cor na barra de menu, só não subi no github
+     por isso dexei os comentarios. Eu queria ter essa barra completa com cor, mas só
+     os botões tinham cor desse jeito.
+      
+    <ion-title>
+      <ion-Grid>
+        <ionRow>
+          <ion-row (click)="CarreiraUnica()">
+            <ion-col size = "12" class = "ion-text-center">
+              <ion-button size = "large">Teste</ion-button>
+            </ion-col>
+          </ion-row>
+
+          <ion-div class="topnav" ion-col size = "12" ionbutton size ="large">
+        <a ion-col size = "4" class="active" href="#home">Inicio</a> 
+        <a ion-col size = "4" href="#tabs2">Novedades</a>
+        <a ion-col size = "4" href="#contact">Contato</a>
+      </ion-div>
+    </ionRow>
+  </ion-Grid>
+    </ion-title> -->
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 <h1>Educação Socioemocional</h1>
-<strong>Agora está funcionando</strong>
+<strong>Mudando o futuro desde já</strong>
+
+
 <p>A educação socioemocional, cada vez mais, faz parte da realidade das escolas. Com ela são trabalhados valores e aptidões como: criatividade,  empatia, colaboração,  resiliência, superação de obstáculos e adaptação a mudanças.
 
   Tais habilidades são desenvolvidas dentro do currículo através de atividades que contemplem alguns aspectos importantes para desenvolver as crianças e adolescentes.
@@ -18,8 +63,8 @@
   
   A educação socioemocional se insere nesse contexto como um conjunto de habilidades sociais e emocionais relativas a uma série de atitudes compatíveis com o que se espera dos indivíduos em tempos atuais e futuros.
   
-  Essas habilidades são, dentre outras:
-  
+  Essas habilidades são, dentre outras: 
+
   Ética;
   Empatia;
   Felicidade;
@@ -30,6 +75,7 @@
   Responsabilidade;
   Autonomia;
   Criatividade.
+
   Além disso, a educação socioemocional compreende algumas variáveis:
   
   Emocionais: autocontrole e autoconhecimento;
